@@ -2,7 +2,6 @@
 
 </router-outlet>
 
-<div *ngFor="let statistique of statistiques">
+<div *ngFor="let statistique of StatistiqueService.statistiques">
   <app-statistique [statistique]="statistique"></app-statistique>
 </div>
-
